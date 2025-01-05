@@ -1,0 +1,13 @@
+LOAD bspline_airfoil.dat
+bspline_airfoil.dat
+PANE
+OPER
+Visc 100000
+PACC
+polar_file.txt
+
+ITER 500
+C 0.6
+
+
+quit
